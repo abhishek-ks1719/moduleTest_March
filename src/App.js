@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Social Media App</h1>
-    
+      <h1>Social Media App</h1>
 //       <Home/>
        <Routes>
         <Route path="/moduleTest_March/" exact element={<Home/>}></Route>
