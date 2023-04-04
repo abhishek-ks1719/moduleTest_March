@@ -10,9 +10,10 @@ import { useSelector} from 'react-redux'
 const Details = () => {
   const data = useSelector(state=> state);
   const { id } = useParams();
+  console.log("details data")
   return (
     <>
-    <Box sx={{p:4,}}>
+     <Box sx={{p:4,}}>
     <Typography gutterBottom variant="h5" component="div">
       Details Page For Post With Id {id}
     </Typography>
@@ -33,7 +34,7 @@ const Details = () => {
         </CardContent>
       </CardActionArea>
     </Card>
-    </Box>
+    </Box> 
     </>
   )
 }
