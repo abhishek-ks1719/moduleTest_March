@@ -7,8 +7,9 @@ function App() {
   return (
     <div className="App">
       <h1>Social Media App</h1>
+      <Home/>
       <Routes>
-      <Route path="/" exact element={<Home/>}></Route>
+      {/* <Route path="/" exact element={<Home/>}></Route> */}
       <Route path="/item/:id" element={<Details/>}></Route>
     </Routes>
     </div>
