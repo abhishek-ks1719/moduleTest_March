@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom'
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
@@ -10,7 +10,6 @@ import { useSelector} from 'react-redux'
 const Details = () => {
   const data = useSelector(state=> state);
   const { id } = useParams();
-  console.log("details data")
   return (
     <>
      <Box sx={{p:4,}}>
