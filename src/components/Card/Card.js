@@ -9,7 +9,7 @@ import { CardActionArea } from '@mui/material';
 export const CardPost = ({ postData }) => {
 
   return (
-    <Link to={`item/${postData.id}`} style={{textDecoration:'none'}}>
+    <Link to={`items/${postData.id}`} style={{textDecoration:'none'}}>
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
           <CardMedia
