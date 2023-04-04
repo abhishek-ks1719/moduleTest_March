@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moduleTest_March/static/css/main.0a0ddfbe.css",
+    "main.js": "/moduleTest_March/static/js/main.5477afaa.js",
+    "index.html": "/moduleTest_March/index.html",
+    "main.0a0ddfbe.css.map": "/moduleTest_March/static/css/main.0a0ddfbe.css.map",
+    "main.5477afaa.js.map": "/moduleTest_March/static/js/main.5477afaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a0ddfbe.css",
+    "static/js/main.5477afaa.js"
+  ]
+}
