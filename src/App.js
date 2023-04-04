@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <h1>Social Media App</h1>
       <Routes>
-      <Route path="/" exact element={<Home/>}></Route>
-      <Route path="/item/:id" element={<Details/>}></Route>
+      <Route path="moduleTest_March/" exact element={<Home/>}></Route>
+      <Route path="moduleTest_March/item/:id" element={<Details/>}></Route>
     </Routes>
     </div>
     
