@@ -12,7 +12,9 @@ body {
   background-color: #151515;
   color:white
 }
-
+.App h1{
+  color: chocolate;
+}
 .App h2{
   text-align: center;
 }
